@@ -1,0 +1,9 @@
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 04\bin\Debug\Zadatak 04.exe.config
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 04\bin\Debug\Zadatak 04.exe
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 04\bin\Debug\Zadatak 04.pdb
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 04\obj\Debug\Zadatak_04.GlavnaForma.resources
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 04\obj\Debug\Zadatak_04.Properties.Resources.resources
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 04\obj\Debug\Zadatak 04.csproj.GenerateResource.cache
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 04\obj\Debug\Zadatak 04.csproj.CoreCompileInputs.cache
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 04\obj\Debug\Zadatak 04.exe
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 04\obj\Debug\Zadatak 04.pdb

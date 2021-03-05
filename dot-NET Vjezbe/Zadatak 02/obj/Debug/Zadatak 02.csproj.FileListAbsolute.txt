@@ -1,0 +1,13 @@
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 02\bin\Debug\Zadatak 02.exe.config
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 02\bin\Debug\Zadatak 02.exe
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 02\bin\Debug\Zadatak 02.pdb
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 02\obj\Debug\Zadatak_02.Properties.Resources.resources
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 02\obj\Debug\Zadatak 02.csproj.GenerateResource.cache
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 02\obj\Debug\Zadatak 02.csproj.CoreCompileInputs.cache
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 02\obj\Debug\Zadatak 02.exe
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 02\obj\Debug\Zadatak 02.pdb
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 02\obj\Debug\Zadatak 02.csprojAssemblyReference.cache
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 02\obj\Debug\Zadatak_02.DrugaForma.resources
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 02\obj\Debug\Zadatak_02.GlavnaForma.resources
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 02\obj\Debug\Zadatak_02.PrvaForma.resources
+C:\Users\stjep\source\repos\dot-NET Vjezbe\Zadatak 02\obj\Debug\Zadatak_02.TrecaForma.resources
