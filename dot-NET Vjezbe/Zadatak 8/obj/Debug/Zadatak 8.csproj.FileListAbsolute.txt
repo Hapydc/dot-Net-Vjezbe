@@ -1,0 +1,10 @@
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 8\bin\Debug\Zadatak 8.exe.config
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 8\bin\Debug\Zadatak 8.exe
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 8\bin\Debug\Zadatak 8.pdb
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 8\obj\Debug\Zadatak_8.Form1.resources
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 8\obj\Debug\Zadatak_8.Properties.Resources.resources
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 8\obj\Debug\Zadatak_8.SecondForm.resources
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 8\obj\Debug\Zadatak 8.csproj.GenerateResource.cache
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 8\obj\Debug\Zadatak 8.csproj.CoreCompileInputs.cache
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 8\obj\Debug\Zadatak 8.exe
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 8\obj\Debug\Zadatak 8.pdb

@@ -15,9 +15,10 @@ namespace Zadatak_07
         public MainForm()
         {
             InitializeComponent();
+            
         }
         List<Control> paneli =new List<Control>();
-
+        
         private void btnCreatePanel_Click(object sender, EventArgs e)
         {
             Random random = new Random();
@@ -34,13 +35,13 @@ namespace Zadatak_07
         private void btnMoveToLeft_Click(object sender, EventArgs e)
         {
             int zadnjiPanel = paneli.Count() - 1;
-            paneli[zadnjiPanel].Left += 10;
+            paneli[zadnjiPanel].Left -= 10;
         }
 
         private void btnMoveToRight_Click(object sender, EventArgs e)
         {
             int zadnjiPanel = paneli.Count() - 1;
-            paneli[zadnjiPanel].Left -= 10;
+            paneli[zadnjiPanel].Left += 10;
         }
 
         private void btnMoveToTop_Click(object sender, EventArgs e)
