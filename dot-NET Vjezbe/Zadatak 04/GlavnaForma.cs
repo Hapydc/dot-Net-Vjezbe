@@ -19,9 +19,9 @@ namespace Zadatak_04
 
         private void btnPromijeniPoziciju_Click(object sender, EventArgs e)
         {
-
             Random random = new Random();
-            Location = new Point(random.Next(0,1000), random.Next(0,1000));              
+            //Screen.GetBounds(Point)
+            Location = new Point(random.Next(), random.Next());              
         }
     }
 }

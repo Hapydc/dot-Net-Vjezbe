@@ -1,4 +1,4 @@
-﻿namespace Zadatak_06
+﻿namespace PanelTest
 {
     partial class Form1
     {

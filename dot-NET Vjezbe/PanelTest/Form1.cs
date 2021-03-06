@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Zadatak_06
+namespace PanelTest
 {
     public partial class Form1 : Form
     {

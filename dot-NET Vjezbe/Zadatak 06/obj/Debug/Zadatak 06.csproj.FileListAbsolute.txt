@@ -1,0 +1,10 @@
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 06\bin\Debug\Zadatak 06.exe.config
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 06\bin\Debug\Zadatak 06.exe
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 06\bin\Debug\Zadatak 06.pdb
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 06\obj\Debug\Zadatak 06.csprojAssemblyReference.cache
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 06\obj\Debug\Zadatak_06.MainForm.resources
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 06\obj\Debug\Zadatak_06.Properties.Resources.resources
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 06\obj\Debug\Zadatak 06.csproj.GenerateResource.cache
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 06\obj\Debug\Zadatak 06.csproj.CoreCompileInputs.cache
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 06\obj\Debug\Zadatak 06.exe
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 06\obj\Debug\Zadatak 06.pdb
