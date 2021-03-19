@@ -33,9 +33,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(279, 136);
+            this.button1.Location = new System.Drawing.Point(12, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(188, 102);
+            this.button1.Size = new System.Drawing.Size(150, 150);
             this.button1.TabIndex = 0;
             this.button1.Text = "Promijeni boju i velicinu";
             this.button1.UseVisualStyleBackColor = true;
@@ -46,10 +46,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Blue;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(582, 353);
             this.Controls.Add(this.button1);
             this.Name = "GlavnaForma";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.GlavnaForma_Load);
             this.ResumeLayout(false);
 
         }

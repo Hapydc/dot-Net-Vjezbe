@@ -97,6 +97,7 @@
             this.Controls.Add(this.btnCreatePanel);
             this.Name = "MainForm";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.btnCreatePanel_Click);
             this.ResumeLayout(false);
 
         }

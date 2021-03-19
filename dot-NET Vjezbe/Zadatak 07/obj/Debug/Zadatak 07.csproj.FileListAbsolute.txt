@@ -8,3 +8,6 @@ C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 07\obj\Deb
 C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 07\obj\Debug\Zadatak 07.csproj.CoreCompileInputs.cache
 C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 07\obj\Debug\Zadatak 07.exe
 C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 07\obj\Debug\Zadatak 07.pdb
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 07\bin\Debug\Utility.dll
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 07\bin\Debug\Utility.pdb
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Zadatak 07\obj\Debug\Zadatak 07.csproj.CopyComplete

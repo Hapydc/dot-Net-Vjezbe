@@ -1,0 +1,6 @@
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Utility\obj\Debug\Utility.csprojAssemblyReference.cache
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Utility\obj\Debug\Utility.csproj.CoreCompileInputs.cache
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Utility\bin\Debug\Utility.dll
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Utility\bin\Debug\Utility.pdb
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Utility\obj\Debug\Utility.dll
+C:\Users\stjep\Documents\GitHub\dot-Net-Vjezbe\dot-NET Vjezbe\Utility\obj\Debug\Utility.pdb

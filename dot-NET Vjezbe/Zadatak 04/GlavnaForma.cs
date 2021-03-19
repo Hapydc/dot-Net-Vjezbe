@@ -20,8 +20,15 @@ namespace Zadatak_04
         private void btnPromijeniPoziciju_Click(object sender, EventArgs e)
         {
             Random random = new Random();
-            //Screen.GetBounds(Point)
-            Location = new Point(random.Next(), random.Next());              
+            Rectangle rezolucijaEkrana =Screen.GetBounds(this);
+            int maxX = rezolucijaEkrana.Width - this.Width;
+            int maxY = rezolucijaEkrana.Height - this.Height;
+            this.Location = new Point(random.Next(maxX), random.Next(maxY));              
+        }
+
+        private void GlavnaForma_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

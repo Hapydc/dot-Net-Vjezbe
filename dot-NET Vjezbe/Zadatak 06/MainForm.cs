@@ -7,64 +7,80 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Utility;
 
 namespace Zadatak_06
 {
     public partial class MainForm : Form
     {
+        private Size velicinaPanela = new Size(200, 200);
+        private Panel zadnjeDodaniPanel;
         public MainForm()
         {
             InitializeComponent();
-        }
-        
-        Panel lastPanel = new Panel();
+        }       
         List<Control> Controle = new List<Control>();
-
-
         private void btnAddPanel_Click(object sender, EventArgs e)
         {
+            
             Random random = new Random();
-            Panel panel = new Panel();
-            panel.Location=new Point(random.Next(100,150), random.Next(100,150));
-            Color randomColor = Color.FromArgb(random.Next(256), random.Next(256), random.Next(256));
-            panel.BackColor = randomColor;
-            panel.Size = new Size(200, 200);
-            this.Controls.Add(panel);
-            Controle.Add(panel);
-            panel.Visible = true;                       
+            Panel panel = new Panel
+            {
+                Size = velicinaPanela,
+                BackColor = Utils.GetRandomBoja(),
+                
+            };
+            panel.Location = Utils.GetRandomLokacijaUnutarRoditelja(pnlKontejner, panel);
+            pnlKontejner.Controls.Add(panel);
+            panel.BringToFront();
+            zadnjeDodaniPanel = panel;
+            Controle.Add(panel);                    
         }
 
         private void btnDeletePanels_Click(object sender, EventArgs e)
         {
-            foreach (Control ctrl in Controle)
-            {               
-                    if (ctrl is Panel)
-                    {
-                    this.Controls.Remove(ctrl);
-                    }                                             
-            }          
+
+            pnlKontejner.Controls.Clear();        
         }
 
         private void btnAddButton_Click(object sender, EventArgs e)
         {
-            Button button = new Button();
-            Random random = new Random();
-            button.Location = new Point(random.Next(0,200), random.Next(0,200));
-            button.AutoSize = true;
-            button.BackColor = Color.LightBlue;
-            this.Controls.Add(button);
-            Controle.Add(button);
+            if (zadnjeDodaniPanel==null)
+            {
+                return;
+            }
+            else
+            {
+
+                Button gumb = new Button()
+                {
+                    Text = "Makni me"
+                };
+                gumb.Location = Utils.GetRandomLokacijaUnutarRoditelja(zadnjeDodaniPanel,gumb);
+                gumb.Click += Gumb_Click;
+                zadnjeDodaniPanel.Controls.Add(gumb);
+                gumb.BringToFront();
+
+            }   
+        }
+
+        private void Gumb_Click(object sender, EventArgs e)
+        {
+            Button gumb = sender as Button;
+            gumb.Parent.Controls.Remove(gumb);    
         }
 
         private void btnDeleteButtons_Click(object sender, EventArgs e)
         {
-            foreach (Control ctrl in Controle)
+            foreach (Control ctrl in pnlKontejner.Controls)
             {
-                if (ctrl is Button)
-                {
-                    this.Controls.Remove(ctrl);
-                }
+                ctrl.Controls.Clear();
             }
+
+        }
+
+        private void pnlKontejner_Paint(object sender, PaintEventArgs e)
+        {
 
         }
     }

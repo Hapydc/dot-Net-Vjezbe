@@ -16,30 +16,32 @@ namespace Zadatak_05
         {
             InitializeComponent();
         }
-       
-        
+
+
 
         private void btnDontShowOnTaskbar_Click(object sender, EventArgs e)
         {
-            if (this.ShowInTaskbar)
+            this.ShowInTaskbar = !this.ShowInTaskbar;
+            if (ShowInTaskbar)
             {
-                this.ShowInTaskbar = false;
+                btnDontShowOnTaskbar.Text = "Ne prikazuj u taskbaru";
             }
-            else if (!this.ShowInTaskbar)
+            else
             {
-                this.ShowInTaskbar = true;
+                btnDontShowOnTaskbar.Text = "Prikazuj u taskbaru";
             }
         }
 
         private void btnDontShowOverOtherWindow_Click(object sender, EventArgs e)
         {
-            if (this.TopMost)
+            TopMost = !TopMost;
+            if (TopMost)
             {
-                this.TopMost = false;
+                btnDontShowOverOtherWindow.Text = "Ne prikazuj iznad ostalih prozora";
             }
-            else if (!this.TopMost)
+            else 
             {
-                this.TopMost = true;
+                btnDontShowOverOtherWindow.Text = "Prikazuj iznad ostalih prozora";
             }
 
         }

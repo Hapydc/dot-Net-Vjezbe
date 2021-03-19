@@ -33,9 +33,9 @@
             // 
             // btnPromijeniPoziciju
             // 
-            this.btnPromijeniPoziciju.Location = new System.Drawing.Point(194, 82);
+            this.btnPromijeniPoziciju.Location = new System.Drawing.Point(160, 78);
             this.btnPromijeniPoziciju.Name = "btnPromijeniPoziciju";
-            this.btnPromijeniPoziciju.Size = new System.Drawing.Size(363, 166);
+            this.btnPromijeniPoziciju.Size = new System.Drawing.Size(200, 150);
             this.btnPromijeniPoziciju.TabIndex = 0;
             this.btnPromijeniPoziciju.Text = "Promijeni Poziciju";
             this.btnPromijeniPoziciju.UseVisualStyleBackColor = true;
@@ -45,11 +45,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(582, 353);
             this.Controls.Add(this.btnPromijeniPoziciju);
             this.Name = "GlavnaForma";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mijenjam polozaj";
+            this.Load += new System.EventHandler(this.GlavnaForma_Load);
             this.ResumeLayout(false);
 
         }

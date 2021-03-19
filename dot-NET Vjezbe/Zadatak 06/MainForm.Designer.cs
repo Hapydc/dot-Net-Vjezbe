@@ -32,12 +32,13 @@
             this.btnDeletePanels = new System.Windows.Forms.Button();
             this.btnAddButton = new System.Windows.Forms.Button();
             this.btnDeleteButtons = new System.Windows.Forms.Button();
+            this.pnlKontejner = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // btnAddPanel
             // 
             this.btnAddPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnAddPanel.Location = new System.Drawing.Point(31, 209);
+            this.btnAddPanel.Location = new System.Drawing.Point(12, 441);
             this.btnAddPanel.Name = "btnAddPanel";
             this.btnAddPanel.Size = new System.Drawing.Size(182, 100);
             this.btnAddPanel.TabIndex = 0;
@@ -48,7 +49,7 @@
             // btnDeletePanels
             // 
             this.btnDeletePanels.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnDeletePanels.Location = new System.Drawing.Point(219, 209);
+            this.btnDeletePanels.Location = new System.Drawing.Point(200, 441);
             this.btnDeletePanels.Name = "btnDeletePanels";
             this.btnDeletePanels.Size = new System.Drawing.Size(182, 100);
             this.btnDeletePanels.TabIndex = 1;
@@ -59,7 +60,7 @@
             // btnAddButton
             // 
             this.btnAddButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnAddButton.Location = new System.Drawing.Point(407, 209);
+            this.btnAddButton.Location = new System.Drawing.Point(388, 441);
             this.btnAddButton.Name = "btnAddButton";
             this.btnAddButton.Size = new System.Drawing.Size(182, 100);
             this.btnAddButton.TabIndex = 2;
@@ -70,7 +71,7 @@
             // btnDeleteButtons
             // 
             this.btnDeleteButtons.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnDeleteButtons.Location = new System.Drawing.Point(595, 209);
+            this.btnDeleteButtons.Location = new System.Drawing.Point(576, 441);
             this.btnDeleteButtons.Name = "btnDeleteButtons";
             this.btnDeleteButtons.Size = new System.Drawing.Size(182, 100);
             this.btnDeleteButtons.TabIndex = 3;
@@ -78,17 +79,26 @@
             this.btnDeleteButtons.UseVisualStyleBackColor = true;
             this.btnDeleteButtons.Click += new System.EventHandler(this.btnDeleteButtons_Click);
             // 
+            // pnlKontejner
+            // 
+            this.pnlKontejner.Location = new System.Drawing.Point(12, 12);
+            this.pnlKontejner.Name = "pnlKontejner";
+            this.pnlKontejner.Size = new System.Drawing.Size(746, 423);
+            this.pnlKontejner.TabIndex = 4;
+            this.pnlKontejner.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlKontejner_Paint);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 553);
+            this.Controls.Add(this.pnlKontejner);
             this.Controls.Add(this.btnDeleteButtons);
             this.Controls.Add(this.btnAddButton);
             this.Controls.Add(this.btnDeletePanels);
             this.Controls.Add(this.btnAddPanel);
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "5";
             this.ResumeLayout(false);
 
         }
@@ -99,6 +109,7 @@
         private System.Windows.Forms.Button btnDeletePanels;
         private System.Windows.Forms.Button btnAddButton;
         private System.Windows.Forms.Button btnDeleteButtons;
+        private System.Windows.Forms.Panel pnlKontejner;
     }
 }
 
